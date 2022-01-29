@@ -1,0 +1,161 @@
+<!--
+     atajos
+     se puede usar html5:  
+     y tambien este ->!
+
+    <!DOCTYPE html> ->  te indica que es la ultima version de  html5
+    lang= "es"->   te indica el idioma  ingles (ES)
+
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+
+<body>
+    <h1>tipos de inputs</h1>
+
+
+    <!--
+        Inputs: es una etiqueta inline ,,es una caja qu puede ser de texto/ numeros fechas/ colores/hora/archivo/checkbox/radiobutton
+    placeholder ::texto casi tranparante  marca de agua 
+    value: solo es 1 vlaor a la vez es le valor que tien el input se pude copiar etc
+             name; permite relacionar el bak con fron  se puede obtener el velor  que se envia 
+             id: es anivel interno para identificar el tcodigo  si java o otro
+    
+    -->
+    <input 
+        type="text" 
+        placeholder="ingresa tu Nombre"
+        value="sofia mi cachorro"        
+        name="nombre"
+        id="nombre"
+
+
+    >
+
+    <input type="text"
+    placeholder="ingresa tu apellido"
+    name="apellido"
+    id="mi apellido"
+    >
+
+    <H2>
+
+        Ipout number
+    </H2>
+<!--number :solo se puede ingrasr  numeros-->
+    <input type="number"
+    placeholder="ingrese su edad"
+    name="edad"
+    id="mi_edad"
+
+    >
+
+    <h2> input email y pasdword</h2>
+
+    <input type="email"
+    placeholder="ingrse su correp"
+    name="correo"
+    id="mi_correo"
+    />
+
+    <input type="password"
+    placeholder="imngrses su passs"
+    name="pasword"
+    id="mi paswodrd"
+    >
+
+<!--sirve para enviar datos s:ubmit-->
+
+    <input type="submit"
+    value="enviar"
+    >
+<h2>input tipoo fecha y hora</h2>
+
+    <input type="date">
+    <input type="time">
+    <input type="datetime-local">
+
+    <h2>inputs de tipo archivo(FILE)</h2>
+
+    <input type="file"
+    
+    <!--onlypf
+    -->
+
+
+    <input type="file"
+    accept="aplication/pdf"
+    
+    >
+<p><input type="file" accept="image/*"></p>
+<p><input type="file" accept="video/*"></p>
+<p><input type="file" accept="audio/*"></p>
+
+<!--
+    input de tipo radio  checkboox
+    en los radio button solo deberia poder seleccionar una opcion
+checked opcion por defecto
+-->
+<p>
+<input type="radio" name="opcion_registro" checked>Radio 1
+<br>
+<input type="radio" name="opcion_registro">radio2
+<br>
+<input type="radio" name="opcion_registro">radio3
+</p>
+
+<p>
+checkboox
+
+</p>
+<!--
+    [] indica que se puede enviar mas de 1 elemento selecionado
+-->
+<p>
+<input type="checkbox" name="opcion_check[]" checked/> checkboox1
+<br>
+<input type="checkbox" name="opcion_check[]" checked/> checkboox3
+<br>
+<input type="checkbox" name="opcion_check[]" checked/> checkboox2
+<br>
+
+<input type="checkbox" name="opcion_check[]"  /> Checkbox 1
+</p>
+
+<h2>inputtipo color</h2>
+
+<p>
+    <input type="color">
+
+</p>
+
+<h2>input tipo ranago</h2>
+
+<p>
+<input type="range">
+
+</p>
+
+<h2>input tipo search</h2>
+
+<p>
+    <input type="search">
+
+</p>
+<h2>input tipo tel(para telefonos)</h2>
+
+<p>
+    <input type="tel">
+</p>
+</body>
+
+</html>
