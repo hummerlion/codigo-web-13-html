@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Comforter', cursive;
+}
+
+.contenedor1{
+    height: 30vh;
+    background-color: red;
+}
+
+input{
+    display: block;
+    margin: 10px;
+    border: 3 solid orange;
+    padding: 10px;
+   
+}
+
+.contenedor-form{
+    border: 3px solid black;
+    height: 100vh;
+    background-color: burlywood;
+}
+
+
+article{
+    height: 40vh;
+    font-family: 'Comforter', cursive;
+font-family: 'Syne Tactile', cursive;
+    background-color: rgba(123, 132, 212, 0.5);
+}
+

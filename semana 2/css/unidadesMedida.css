@@ -1,0 +1,62 @@
+/*
+px = pixeles pantalla fotos
+em = tama;o de letra (2em )  texto parrafos 
+rem =
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+    height: 2vh;
+    width: 100%;
+    
+}
+
+.banner{
+    background-color: rgb(88, 114, 99);
+    
+}
+
+
+.titulo {
+    font-size: 3em ;
+    color: salmon;
+}
+
+.parrafo{
+    font-size: 50px;
+}
+
+.bannermedio {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(255, 49, 210);
+  }
+  
+  .banner2 {
+    background-color: rgb(36, 201, 216);
+    height: 40vh;
+    width: 50%;
+  }
+
+  .banner3{
+      height: 300vh;
+      background-color: sienna;
+      width: 50%;
+  }
+
+  .baner4{
+      background-color: slateblue;
+      height: 40vh;
+      min-width: 52%;
+      max-width: 80%;
+  }
+
+  .baner5{
+      width: 300px;
+      height: 300px;
+      border: 8px solid red;
+  }

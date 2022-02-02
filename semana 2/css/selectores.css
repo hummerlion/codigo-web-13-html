@@ -1,0 +1,46 @@
+/* "*"= todo */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+}
+
+/* selector dfe  descendientes */
+.contenedor p{
+    color: blueviolet;
+}
+
+.contenedor2 h2{
+    color:brown
+}
+
+.contenedor3 a img {
+     border: 5px solid rgb(122, 3, 240);
+}
+
+.menu-navegacion {
+    margin: 20px;
+}
+
+ul > li {
+    border: 2px solid green;
+}
+
+.link-navegacion {
+    border: 4px solid red;
+}
+
+input[type="email"] {
+    background-color: royalblue;
+}
+
+input[type="text"] {
+    background-color: rgb(225, 209, 65);
+}
+
+input[type="password"] {
+    background-color: rgb(225, 65, 132);
+}

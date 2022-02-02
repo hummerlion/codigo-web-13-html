@@ -1,0 +1,139 @@
+body{
+    font-family: Helvetica;
+}
+
+h1{
+    background-color: rgb(157, 165, 42);
+    color: red
+}
+h2{
+    background-color: rgb(113, 78, 240);
+    color: green;
+}
+/*p{
+    background-color: rgb(32, 18, 8);
+    color: blue;
+}*/
+a{ 
+    background-color: darkblue;
+    color: blueviolet;
+}
+
+/* la forma corecta en la cual enlacamos un ID en css es usando el 
+un ID  se  usa cuando se tiene un estilo unico especifco para iuuna elelmenoto#*/
+#contenedor-uno{
+    background-color: rgb(14, 196, 96);
+}
+#contenedor-dos{
+    background-color: yellow;
+}
+
+/*para poder compartir estilos debemo usar clase (class)*/
+
+/*para poder acceder a un elemnto que otne un class usamos el punto .*/
+
+
+.contenedor-principal{
+    background-color: rgb(101, 168, 223);    
+    padding: 30px;
+}
+.btn-ingresar{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+
+}
+.btn-registro{
+    background-color: rgb(240, 173, 30);
+    color: rgb(228, 31, 31);
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+/*sepan quie  cuando se usan clasese
+se pueden compartir estilos*/
+
+.btn-registro2{
+    font-size: 25px;
+
+}
+
+/**border que  cubra todo*/
+  
+
+.contenedor-form{
+    border: 10px solid rgb(11, 145, 255)
+}   
+
+.contenedor-interno-form{
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-form{
+    color: rgb(0, 68, 61);
+    background-color: rgb(255, 255, 255);
+}
+
+.input-form{
+    padding:  10px;
+    border-radius: 8px ;
+    border: 2px solid rgb(17, 56, 32);
+    width: 400px;
+    
+}
+.input-codigo{
+    width: 100px;
+    }
+    
+.input-numero{
+    width: 275px;
+  
+}
+.input-button{
+    background-color: rgb(240, 173, 30);
+
+}
+
+.btn-crear-usuario {
+    background-color: rgb(248, 156, 35);
+    color: #000;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+
+/**seudo clases los elementos propiedades internas por ejemple 
+el hoger es la propiedad que detecta qcuando e mau esta sobre el elemento es decir estos estilos se aplicarna solo 
+solo si el mause esta sobre los dichoe elementos 
+
+
+.btn-ingresar:hover {
+
+}
+
+
+/*los elelemntos como el ""a
+link
+visited
+hover
+active
+estas seudoclases aplican para todos los elelmtos de ahtm
+*/
+
+.contenedor-interno-form h1 {
+    border: 2px solid rgb(7, 83, 60);
+}
+.contenedor-interno-form  {
+    border: 2px solid rgb(7, 83, 60);
+
+}
+h1 :first-child{
+    color: purple;
+}
+input:first-of-type{
+    color: red;
+}
