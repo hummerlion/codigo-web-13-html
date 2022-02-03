@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0
+;
+}
+
+.nav{
+    position: fixed;
+    height: 15vh;
+    border: 5px solid blueviolet;
+    top: 0;
+    background-color: aqua;
+    display: block;
+    width: 100%;
+    z-index: 1;
+
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    border: 5px solid red;
+    
+    
+}
+
+.section1{
+    border: 5px solid blue;
+    position: relative;
+    height: 50vh;
+    top: 100vh;
+    
+}
+
+.titulo-principal{
+    border: 5px solid rgb(10, 218, 79);
+    position: absolute;
+
+}
+
+.section2{
+    border: 5px solid gray;
+    height: 50vh;
+    margin: 0vh;
+    width: 100%;
+    position: relative;
+    
+
+}
+
+.contenedor1{
+    position: absolute;
+    bottom: 0;
+}
+.contenedor p {
+    display: inline-block;
+  }
