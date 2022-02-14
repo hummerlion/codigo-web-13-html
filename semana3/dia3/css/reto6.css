@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+}
+
+.header{
+    background-color: #40bfff !important;
+    background: url("/semana3/dia3/imagenes/desktop/image-header.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav div{
+    padding: 20px;
+}
+
+.menu-nav{
+    display: flex;
+    list-style: none;
+}
+
+.menu-nav li{
+    padding-right: 30px;
+
+}
+
+.menu-nav li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.btn-contact{
+    font-family: "Fraunces" ;
+    background-color:   hsl(0, 0%, 100%);
+    color: black !important;
+    padding: 20px;
+    border-radius: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+
+}
+
+
+.content-title{
+    color: #fff;
+    text-align: center;
+
+}
+
+.content-title h1{
+    font-family: "Fraunces";
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+
+}
+
+
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50vh 50vh;
+    grid-template-areas: 
+    "transform transform-image"
+    "standout-image standout";
+}
+
+.item1{
+    grid-area: transform;
+}
+
+.item2{
+    background-color: hsl(51, 100%, 49%) !important;
+    background: url("../imagenes/desktop/image-transform.jpg");
+    grid-area: transform-image;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
+}
+
+.item3{
+    background-color: rgb(254,116,99) !important;
+    background: url("../imagenes/desktop/image-stand-out.jpg");
+    grid-area: standout-image;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+}      
+
+.item4{
+    grid-area: standout;
+}
+
+.container-text{
+   
+    width: 45%;
+    margin:auto;
+}
+
+.container-text *{
+    margin-bottom: 20px;
+}
+
+.container-text h2{
+    font-family: "Fraunces";
+    font-size: 2.3em;
+
+}
+
+.container-text p{
+    color: 123 9%,39% ;
+}
+
+.container-text a{
+    font-family: "Fraunces";
+    color: black;
+    
+    font-weight: 600;
+    text-transform: uppercase;
+
+
+}
+
+
+.learn-yellow{
+    text-decoration: none;
+    border-bottom: solid 5px hsl(51, 100%, 49%);
+}
+
+.learn-red{
+    text-decoration: none;
+    border-bottom: solid 5px rgb(254,116,99);
+}
